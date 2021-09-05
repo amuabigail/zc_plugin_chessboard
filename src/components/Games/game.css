@@ -1,45 +1,46 @@
-Container{
+.container{
     width: 100%;
-    padding: 50%;
+    padding: 2rem;
     
 }
 .figcaption .btn-1{
     position: absolute;
-    top: 19rem;
-    left: 9rem;
-
+    top: 12rem;
+    left: 11.5rem;
 
 }
+
 .figcaption .btn-2{
     position: absolute;
-    top: 19rem;
-    left: 9rem;
-
+    left: 11.5rem;
 }
 
 .img-fluid1{
-    height: 500px;
-    width: 500px;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+position: relative;
+width: 249px;
+height: 250px;
+left: 3rem;
+bottom: 0.5rem;
+background: rgba(0, 0, 0, 0.5);
     
-    display: flex;
+    
 }
 .img-fluid2{
-    height: 500px;
-    width: 500px;
-    margin-top: 4rem;
-    margin-bottom: 5rem;
-    
-    display: flex;
-
-}
+    position: relative;
+    width: 249px;
+    height: 250px;
+    left: 3rem;
+    top: 1rem;
+    margin-bottom: 1.5rem;
+    background: rgba(0, 0, 0, 0.5);
+} 
 .btn-1{
     background-color: rgb(61, 182, 136);
     border-radius: 0.5rem;
-    height: 4rem;
-    width: 13rem;
-    font-size: 1.4rem;
+    width: 128px;
+    height: 39px;
+    top: 10rem;
+    font-size: 1rem;
     color:white;
     
     
@@ -47,69 +48,77 @@ Container{
 .btn-2{
     background-color: rgb(61, 182, 136);
     border-radius: 0.5rem;
-    height: 4rem;
-    width: 13rem;
-    font-size: 1.4rem;
+    width: 128px;
+    height: 39px;
+    top: 35rem;
+    font-size: 1rem;
     color:white;
 
     
 }
 .pic1{
-    position: absolute;
-    height: 60px;
-    width: 60px;
-    margin-top: 25px;
-    margin-bottom: 30px;
-    margin-left: 10px;
+    position: relative;
+    margin-left: 50px;
+    height: 28.612895965576172px;
+    width: 28.612895965576172px;
+
+
 }
 .pic2{
     position: absolute;
-    top: 38rem;
-    height: 60px;
-    width: 60px;
-    left: 17rem;
+    left: 16rem;
+    height: 28.612895965576172px;
+    width: 28.612895965576172px;
+    
+    
+    
 }
 .pic3{
     position: absolute;
-    top: 38rem;
-    height: 60px;
-    width: 60px;
-    left: 17rem;
+    left: 8rem;
+    height: 28.612895965576172px;
+    width: 28.612895965576172px;
 }
+.pic4{
+    position: absolute;
+    left: 16rem;
+    height: 28.612895965576172px;
+    width: 28.612895965576172px;
+}
+
 .text1{
     position: relative;
     left: 5.5rem;
-    top: 3rem;
-    font-size: 1rem ;
-    color: rgb(72, 70, 70);
+    font-size: 14px;
+    color: #505050;;
+    font-weight: normal;
+    bottom: 1.8rem;
 
 }
 .text2{
     position: relative;
-    left: 22rem;
-    bottom: 3.5rem;
-    font-size: 1rem ;
-    color: rgb(72, 70, 70);
+    left: 14rem;
+    font-size: 14px;
+    color: #505050;
+    font-weight: normal;
+    
 }
 .text3{
     position: relative;
-    left: 5rem;
-    top: 2.5rem;
-    font-size: 1rem ;
-    color: rgb(72, 70, 70);
+    left: 5.7rem;
+    font-size: 14px;
+    color: #505050;
+    font-weight: normal;
 }
 .text4{
     position: relative;
-    left: 21.5rem;
-    bottom: 2.5rem;
-    font-size: 1rem ;
-    color: rgb(72, 70, 70);
+    left: 13.8rem;
+    font-size: 14px;
+    color: #505050;
+    font-weight: normal;
 }
 .color{
     color:white;
     top: 15rem;
 }
 
-@media screen and (max-width: 978px){
-    
-}
